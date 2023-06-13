@@ -40,7 +40,7 @@ fun HomeScreen(navcont: NavHostController) {
         )
         val context1= LocalContext.current
         Button(onClick = {
-            if (username=="zoheir" && password=="123456"){
+            if (username=="zp" && password=="123456"){
                 navcont.navigate(Second.route)
             }else{
                 Toast.makeText(context1,"Error Please Try Again", Toast.LENGTH_SHORT).show()
